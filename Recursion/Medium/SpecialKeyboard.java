@@ -1,3 +1,6 @@
+package Medium;
+// https://practice.geeksforgeeks.org/problems/special-keyboard3018/1/?page=1&difficulty[]=1&difficulty[]=2&category[]=Recursion&sortBy=submissions#
+
 public class SpecialKeyboard {
     public static void main(String[] args) {
         System.out.println(optimalKeys(60));
