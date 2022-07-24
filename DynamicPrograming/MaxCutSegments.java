@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class MaxCutSegments {
     public static void main(String[] args) {
 
