@@ -21,3 +21,8 @@ Cycle Problems:
    flow => add to map => call for next => remove from map (backtrack)
    Base case check each time if
    CONDITION => vis\_\_global[cur] == true && map.contains(cur) return true
+
+   b. BFS Approach:
+   We know Kahn's Algo is a good method to find a topological sort of the graph.
+   Also a graph only has a t.sort iff its a DAG.
+   For a directed graph to check if the graph is Acyclic we can use the above relation!

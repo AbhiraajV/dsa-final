@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+
 class FindVertextReachAllNodes {
     public static void main(String[] args) {
 
@@ -21,8 +25,6 @@ class FindVertextReachAllNodes {
     static int dfs(int cur, HashSet<Integer> map, int parent) {
 
         map.add(cur);
-
-        int vis = 0;
         for (int i : g__adj.get(cur)) {
             if (!(map.contains(i) && i != parent)) {
                 dfs(i, map, cur);
